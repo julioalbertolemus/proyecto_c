@@ -16,16 +16,26 @@ El valor del tipo de cambio se toma como de referenica el dato del Banco de Gaut
 
 **Server:** Apache2, PHP, Compilador de C (build-essential), GIT
 
-Configurar el servidor con la interfaz de red como Adaptador de puente,
+Configurar el servidor con la interfaz de red como Adaptador de puente.
+Instalar el SSH Server
+Validar que esten en la misma red
+Instalar el compemento o Plugin en Visual Studio Code que se llama Remote Explorer
+Crear la conexion, ingresar las credenciales y validar la conexion hacia el servidor.
+Crear carpeta en la ruta /var/www/html/proyecto_c
+Crear un archivo con extension ".c"
 
 
 ## Deployment
 
-To deploy this project run
+Para ejecutar el programa se utiliza el siguiente comando:
+
 
 ```bash
-  npm run deploy
+  gcc -o conversor conversionDeMonedas.c
 ```
 
 
 ## Authors
+- Nombre: Julio Alberto Lemus Hernández
+- Correo: julioalberto.lemus@galileo.edu
+- Carné: 24001549
